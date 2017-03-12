@@ -39,5 +39,5 @@
   }
 }
 .l-2-columns {
-  @include ds-2-columns(.l-2-columns__column);
+  @include ds-2-columns('.l-2-columns__column');
 }
