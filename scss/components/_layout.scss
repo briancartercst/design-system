@@ -3,10 +3,8 @@
 // -----------------------------------------------------------------------------
 
 %ds-page {
-  @extend %ds-page-padding;
   max-width: $ds-page-max-width;
   margin: 0 auto;
-
   padding: 15px 15px 40px;
 
   @include breakpoint($ds-breakpoint-iphone6) {
