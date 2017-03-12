@@ -23,14 +23,14 @@
   @extend %ds-page;
 }
 
-@mixin ds-2-columns(column) {
+@mixin ds-2-columns($column) {
   @extend %ds-clearfix;
 
   @media (min-width: $ds-breakpoint-laptop) {
     margin: 0 -10px;
   }
 
-  #{column} {
+  #{$column} {
     @media (min-width: $ds-breakpoint-laptop) {
       float: left;
       padding: 0 10px;
