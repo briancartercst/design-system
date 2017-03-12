@@ -15,9 +15,9 @@
 
 @font-face {
   font-family: 'Cousine';
-  src: url('https://files.helloper.com/fonts/cousine/cousine-bold-webfont.woff2') format('woff2'),
-       url('https://files.helloper.com/fonts/cousine/cousine-bold-webfont.woff') format('woff');
-  font-weight: 700;
+  src: url('https://files.helloper.com/fonts/cousine/cousine-regular-webfont.woff2') format('woff2'),
+       url('https://files.helloper.com/fonts/cousine/cousine-regular-webfont.woff') format('woff');
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -31,11 +31,52 @@
 
 @font-face {
   font-family: 'Cousine';
-  src: url('https://files.helloper.com/fonts/cousine/cousine-regular-webfont.woff2') format('woff2'),
-       url('https://files.helloper.com/fonts/cousine/cousine-regular-webfont.woff') format('woff');
+  src: url('https://files.helloper.com/fonts/cousine/cousine-bold-webfont.woff2') format('woff2'),
+       url('https://files.helloper.com/fonts/cousine/cousine-bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  src: url('https://files.helloper.com/fonts/libre-franklin/librefranklin-medium-webfont.woff2') format('woff2'),
+       url('https://files.helloper.com/fonts/libre-franklin/librefranklin-medium-webfont.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Libre Franklin';
+  src: url('https://files.helloper.com/fonts/libre-franklin/librefranklin-mediumitalic-webfont.woff2') format('woff2'),
+       url('https://files.helloper.com/fonts/libre-franklin/librefranklin-mediumitalic-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  src: url('https://files.helloper.com/fonts/libre-franklin/librefranklin-bold-webfont.woff2') format('woff2'),
+       url('https://files.helloper.com/fonts/libre-franklin/librefranklin-bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  src: url('https://files.helloper.com/fonts/libre-franklin/librefranklin-bolditalic-webfont.woff2') format('woff2'),
+       url('https://files.helloper.com/fonts/libre-franklin/librefranklin-bolditalic-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  src: url('https://files.helloper.com/fonts/libre-franklin/librefranklin-black-webfont.woff2') format('woff2'),
+       url('https://files.helloper.com/fonts/libre-franklin/librefranklin-black-webfont.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
 
 // This is the default html and body font-size for the base rem value.
 $ds-rem-base: 18px !default;
