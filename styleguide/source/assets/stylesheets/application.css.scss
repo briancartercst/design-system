@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+// Import normalize
+@import "normalize-scss/normalize";
+
+// Import the design system
+@import "../../../../scss/_design-system";
+
+
+.header {
+  border-bottom: 1px solid #222;
+  margin: 0 0 3rem;
+  padding: 0.5rem 2rem;
+  text-align: center;
+}
+
+.header__headline {
+  @extend %h5;
+  color: #888;
+}
+
+.styleguide {
+  width: $ds-page-max-width;
+  margin: 0 auto;
+  padding: 0 0 4rem;
+}

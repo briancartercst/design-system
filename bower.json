@@ -1,0 +1,15 @@
+{
+  "name": "`persand-design-system",
+  "version": "1.0.0",
+  "main": "scss/_design-system.scss",
+  "private": true,
+  "ignore": [
+    ".gitignore",
+    "bower.json",
+    "README.md",
+    "styleguide/"
+  ],
+  "dependencies": {
+    "normalize-scss": ">= 3.0.2"
+  }
+}

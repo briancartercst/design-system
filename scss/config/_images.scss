@@ -1,0 +1,4 @@
+// This is just an example of how to properly setup image paths.
+
+$ds-images-path: '../images/' !default;
+$ds-image-creative-commons: "#{$ds-images-path}cc.svg" !default;

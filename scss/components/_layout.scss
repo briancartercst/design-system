@@ -1,0 +1,45 @@
+// -----------------------------------------------------------------------------
+// Basic page layout
+// -----------------------------------------------------------------------------
+
+%ds-page {
+  @extend %ds-page-padding;
+  max-width: $ds-page-max-width;
+  margin: 0 auto;
+
+  padding: 15px 15px 40px;
+
+  @include breakpoint($ds-breakpoint-iphone6) {
+    padding: 20px;
+  }
+
+  @include breakpoint($ds-breakpoint-iphone6plus) {
+    padding: 25px;
+  }
+
+  @include breakpoint($ds-breakpoint-tablet) {
+    padding: 40px;
+  }
+}
+.l-page {
+  @extend %ds-page;
+}
+
+%ds-2-columns {
+  @extend %ds-clearfix;
+
+  @media (min-width: $ds-breakpoint-laptop) {
+    margin: 0 -10px;
+  }
+
+  div {
+    @media (min-width: $ds-breakpoint-laptop) {
+      float: left;
+      padding: 0 10px;
+      width: 50%;
+    }
+  }
+}
+.l-2-columns {
+  @extend %ds-2-columns;
+}
