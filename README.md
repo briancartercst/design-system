@@ -6,7 +6,7 @@ This is a primer for building my personal websites. It contains basic typography
 
 Install via [Bower](http://bower.io):
 
-`$ bower install persand/design-system --save`
+`$ bower install 'git://github.com/persand/design-system.git' --save`
 
 See [README-DESIGNSYSTEM.md](https://github.com/persand/design-system/blob/master/README-DESIGNSYSTEM.md) for more specific info.
 
